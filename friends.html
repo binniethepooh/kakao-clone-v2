@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/f2a229c073.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -23,21 +24,23 @@
       </div>
     </div>
     <header class="header">
-      <div class="header__header-column"></div>
-      <h1 class="header__title">Friends</h1>
-      <div class="header__header-column"></div>
-      <span class="header__icon">
-        <i class="fas fa-search"></i>
-      </span>
-      <span class="header__icon">
-        <i class="fas fa-cog"></i>
-      </span>
+      <div class="header__header-column">
+        <h1 class="header__title">Friends</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
-          <div class="freind__column">
-            <img src="images/avatar2.jpg" class="g-avatar friend__avatr" />
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/avatar.png" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Jack Dawson
@@ -49,13 +52,13 @@
           </div>
         </div>
       </header>
-      <div class="freinds__plus">
+      <div class="friends__plus">
         <h5 class="friends__title">
           Plus Friend
         </h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.png" class="g-avatar friend__avatr" />
+            <img src="images/avatar.png" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -66,9 +69,9 @@
       </div>
       <ul class="friends__list">
         <h5 class="friends__title">Friends 10</h5>
-        <li class="friends__friend friend friend">
+        <li class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.png" class="g-avatar friend__avatr" />
+            <img src="images/avatar.png" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Jack Dawson
@@ -80,7 +83,7 @@
           </div>
           <div class="friend__column">
             <div class="friend__now-listening">
-              <span>Whiteny Houston - My Heart Will Go On</span>
+              <span>WH - My Heart Will Go On</span>
               <i class="fas fa-play"></i>
             </div>
           </div>
@@ -111,5 +114,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small!</span>
+    </div>
   </body>
 </html>

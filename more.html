@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/f2a229c073.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>More | Kakao Clone</title>
   </head>
   <body>
@@ -23,26 +24,28 @@
       </div>
     </div>
     <header class="header">
-      <div class="header__header-column"></div>
-      <h1 class="header__title">More</h1>
-      <div class="header__header-column"></div>
-      <span class="header__icon">
-        <i class="fas fa-search"></i>
-      </span>
-      <span class="header__icon">
-        <i class="fas fa-qrcode"></i>
-      </span>
-      <span class="header__icon">
-        <a href="settings.html">
-          <i class="fas fa-cog"></i>
-        </a>
-      </span>
+      <div class="header__header-column">
+        <h1 class="header__title">More</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-qrcode"></i>
+        </span>
+        <span class="header__icon">
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+          </a>
+        </span>
+      </div>
     </header>
     <main class="more">
       <header class="more__header">
         <div class="friends__friend friend friend">
           <div class="friend__column">
-            <img src="images/avatar.png" class="g-avatar friend__avatr" />
+            <img src="images/avatar.png" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Jack Dawson
@@ -89,24 +92,24 @@
         </h5>
         <ul class="more__suggestions-list">
           <li class="more__suggestion suggestion">
-            <span class="suggestion icon">
-              <i class="fas fa-quote-right fa-2x"></i>
+            <span class="suggestion__icon">
+              <i class="fas fa-quote-right"></i>
             </span>
             <span class="suggestion__title">
               Kakao Story
             </span>
           </li>
           <li class="more__suggestion suggestion">
-            <span class="suggestion icon">
-              <i class="fas fa-beer fa-2x"></i>
+            <span class="suggestion__icon">
+              <i class="fas fa-beer"></i>
             </span>
             <span class="suggestion__title">
               Kakao friends
             </span>
           </li>
           <li class="more__suggestion suggestion">
-            <span class="suggestion icon">
-              <i class="fas fa-gamepad fa-2x"></i>
+            <span class="suggestion__icon">
+              <i class="fas fa-gamepad"></i>
             </span>
             <span class="suggestion__title">
               Friends Gem
@@ -139,5 +142,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small!</span>
+    </div>
   </body>
 </html>
